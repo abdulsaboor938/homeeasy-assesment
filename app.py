@@ -135,7 +135,7 @@ def team_performance():
     prompt = f"""
         {csv_data}
 
-        This is this is data for sales department, provide detailed analysis covering all the aspects and also give any useful insights that can be derived from the data. generate atleast 1500 words.
+        This is this is data for sales department, provide detailed summary analysis covering all the aspects and also give any useful insights that can be derived from the data. generate atleast 1500 words.
         """
     
     # Call the GPT API using the new method

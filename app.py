@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Define the API key for OpenAI (replace 'your-api-key' with your actual key)
-openai.api_key = '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'
+openai.api_key = 'Your-API-key'
 
 @app.route('/api/rep_performance', methods=['GET'])
 def rep_performance():
